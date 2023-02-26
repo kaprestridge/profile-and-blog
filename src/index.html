@@ -1,26 +1,22 @@
 ---
 layout: default
-title: Kat's Blog
+title: Kat
 path: home
 ---
 
 <div
-  class="container mx-auto lg:h-screen flex flex-col justify-center items-center"
+  class="container mx-auto lg:h-screen flex justify-center items-center bg-black/50 text-white"
 >
-  <h1>
-    Welcome to
-    <strong
-      class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500"
-    >
-      {{title}}
-    </strong>
-  </h1>
+  <div class="flex-col p-20">
+    <h1 class="text-lime">
+      Hi, I'm
+      <p class="font-bold">{{title}}</p>
+    </h1>
 
-  <p>
-    <abbr title="netlify cms, eleventy, alpine js & tailwind css">NEAT</abbr>
-    Starter Template. Get Started by editing.
-    <code class="bg-gray-100 text-blue-800 p-1">/index.njk</code>
-  </p>
+    <p class="text-black bg-brightPink border-2 border-lime p-2 max-w-fit">
+      Software Developer
+    </p>
+  </div>
 
-  {% include "./_includes/partials/content.html" %}
+  <img src="static/img/insane.gif" alt="Flashing images" class="max-w-2xl" />
 </div>

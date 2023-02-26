@@ -5,9 +5,12 @@ module.exports = {
       center: true,
     },
     extend: {
-      colors: {},
+      backgroundImage: {
+        "hero-pattern": "url('/static/img/staticscreen.jpg')",
+      },
+      colors: { lime: "#73FF10", brightPink: "#FF62CE" },
     },
+    variants: {},
+    plugins: [require("@tailwindcss/typography")],
   },
-  variants: {},
-  plugins: [require("@tailwindcss/typography")],
 };
