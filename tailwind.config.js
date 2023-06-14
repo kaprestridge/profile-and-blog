@@ -5,9 +5,6 @@ module.exports = {
       center: true,
     },
     extend: {
-      backgroundImage: {
-        "hero-pattern": "url('/static/img/staticscreen.jpg')",
-      },
       colors: { lime: "#73FF10", brightPink: "#FF62CE" },
     },
     variants: {},
